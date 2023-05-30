@@ -1,0 +1,157 @@
+/* box model, background, padding, shadow on paragragh one*/
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+p {
+
+    color: red; 
+}
+
+p {
+    border: 10px solid lightskyblue;
+    width: 300px;
+    display: inline-block;
+    padding: 50px;
+    background-color: aqua;
+    box-shadow: 0 0 5px #000;
+    
+}
+/* box model, background image, text shadow, padding, shadow on paragragh two*/
+.paraindex2 {
+    border: 10px solid lightskyblue;
+    width: 400px;
+    display: inline-block;
+    padding: 100px;
+    text-shadow: black;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    text-shadow: 2px 20px 4px black, 4px 4px 8px white;
+}
+
+section {
+   
+    background-image: url(https://picsum.photos/id/50/400/400);
+    object-fit: contain;
+}
+
+div p em{
+    color: blueviolet;
+}
+
+div, h1, h3 {
+    color: orangered;
+}
+div, h6{
+    color: blue;
+}
+
+}
+
+/*coloring of words when transitioning when clicked on to go to the next page */
+
+a:link{
+    color: green;
+}
+a:visited {
+    color: red;
+}
+
+a:hover{
+    text-decoration:overline;
+}
+
+a:active{
+        color:black;
+}
+/*making an inline element into a block element */
+a {
+    border: 1px solid black;
+    width: 500;
+    display: block;
+}
+div2 {
+    border: 1px solid black;
+}
+/*making a Box Model*/
+#topMain { 
+    background-color: bisque;
+    color:lightslategrey;
+    width: 100px;
+    float: right;
+
+}
+
+#midMain {
+    background-color: chartreuse;
+    width: 500px;
+    clear:both;
+   
+    
+}
+#baseMain {
+    background-color: blue;
+    color: white;
+    clear: both;
+    width: 100px; 
+    height: 150px; 
+    padding-bottom: 10px ;
+
+}
+
+/* fixed position element */
+p3 {
+    border: 1 px solid black;
+    width: 50px;
+    height: 50px;
+    background: red;
+    color: white;
+    top: 200px;
+    left: 200px;
+    position: fixed;
+    top: 200px;
+}
+
+* {
+    margin: 20px;
+    padding: 20px;
+}
+div5 {
+    border: 1px solid black;
+    background: green;
+    color: white;
+    margin: 10px 15px 20px 30px;
+}
+
+p5 {
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    background: red;
+    color:aliceblue;
+    position: relative;
+    top: 20px;
+
+}
+
+* {
+    margin: 20px;
+    padding: 20px 50px 70px 100px;
+}
+div6 {
+    border: 1px solid black;
+    background: green;
+    color: white;
+    margin: 10px 15px 20px 30px;
+}
+
+p6 {
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    background: red;
+    color:aliceblue;
+    position: absolute;
+    top: 0px;
+
+}

@@ -1,0 +1,25 @@
+/* General Default Styles*/
+
+/* Tablet Style*/
+body {
+    margin: 200px;
+    padding: 100px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 50px;
+ }
+
+ /* Tablet Style not able to manipulate to see if it works however noticed that color does not pull up small square*/
+@media screen and (max-width:1023px){
+     body {
+    font-size: 25px;
+    background-color: black;}
+    }
+
+/* Mobile Styles*/
+
+@media screen and (max-width:560px){
+    body{
+    font-size: 50px;
+    background-color: greenblue;}
+}
